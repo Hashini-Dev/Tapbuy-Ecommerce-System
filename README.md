@@ -56,23 +56,21 @@ This project follows **MVC (Model-View-Controller)** design pattern:
 
 ## 🗂️ Project Structure
 
+```
 TapBuy/
 │
 ├── src/
-│ └── java/
-│ ├── controller/ # Servlets (Controllers)
-│ ├── model/ # Business Logic
-│ ├── entity/ # Hibernate Entities
-│ └── dto/ # Data Transfer Objects
+│   └── java/
+│       ├── controller/      # Servlets (Controllers)
+│       ├── model/           # Business Logic
+│       ├── entity/          # Hibernate Entities
+│       └── dto/             # Data Transfer Objects
 │
-├── web/ # Frontend (HTML, CSS, JS)
-│
-├── lib/ # External Libraries
-│
-├── nbproject/ # NetBeans Configuration
-│
+├── web/                     # Frontend (HTML, CSS, JS)
+├── lib/                     # External Libraries
+├── nbproject/               # NetBeans Configuration
 └── build.xml
-
+```
 
 ---
 
